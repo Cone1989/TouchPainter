@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CoordinatingController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +22,8 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    
+    CanvasViewController *canvas = [CoordinatingController sharedInstance].canvasViewController;
+    _window.rootViewController = canvas;
     
     [_window makeKeyAndVisible];
     
