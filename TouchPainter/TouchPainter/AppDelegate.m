@@ -24,7 +24,7 @@
     
     CanvasViewController *canvas = [CoordinatingController sharedInstance].canvasViewController;
     _window.rootViewController = canvas;
-    
+
     [_window makeKeyAndVisible];
     
     return YES;

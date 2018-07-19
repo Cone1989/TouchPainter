@@ -20,6 +20,9 @@
 		2C49F00B20FEE36300BE0D1B /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F00920FEE36300BE0D1B /* ThumbnailViewController.m */; };
 		2C49F00C20FEE36300BE0D1B /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C49F00A20FEE36300BE0D1B /* ThumbnailViewController.xib */; };
 		2C49F01120FEE3EE00BE0D1B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F01020FEE3EE00BE0D1B /* CoordinatingController.m */; };
+		2CF8E42321003C3100BA06AC /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42221003C3100BA06AC /* Stroke.m */; };
+		2CF8E42621003EB400BA06AC /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42521003EB400BA06AC /* Vertex.m */; };
+		2CF8E42921003FCA00BA06AC /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42821003FCA00BA06AC /* Dot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,13 @@
 		2C49F00A20FEE36300BE0D1B /* ThumbnailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
 		2C49F00F20FEE3EE00BE0D1B /* CoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
 		2C49F01020FEE3EE00BE0D1B /* CoordinatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		2CF8E42021003B3300BA06AC /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		2CF8E42121003C3100BA06AC /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		2CF8E42221003C3100BA06AC /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		2CF8E42421003EB400BA06AC /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		2CF8E42521003EB400BA06AC /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		2CF8E42721003FCA00BA06AC /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		2CF8E42821003FCA00BA06AC /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +126,7 @@
 			children = (
 				2C49EFC820FEE27500BE0D1B /* AppDelegate.h */,
 				2C49EFC920FEE27500BE0D1B /* AppDelegate.m */,
+				2CF8E41F21003B0A00BA06AC /* Composite Prototype Iterator */,
 				2C49F00E20FEE3C400BE0D1B /* Mediator */,
 				2C49EFFB20FEE31100BE0D1B /* View Controllers */,
 				2C49EFD120FEE27600BE0D1B /* Assets.xcassets */,
@@ -191,6 +202,20 @@
 				2C49F01020FEE3EE00BE0D1B /* CoordinatingController.m */,
 			);
 			path = Mediator;
+			sourceTree = "<group>";
+		};
+		2CF8E41F21003B0A00BA06AC /* Composite Prototype Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				2CF8E42021003B3300BA06AC /* Mark.h */,
+				2CF8E42121003C3100BA06AC /* Stroke.h */,
+				2CF8E42221003C3100BA06AC /* Stroke.m */,
+				2CF8E42421003EB400BA06AC /* Vertex.h */,
+				2CF8E42521003EB400BA06AC /* Vertex.m */,
+				2CF8E42721003FCA00BA06AC /* Dot.h */,
+				2CF8E42821003FCA00BA06AC /* Dot.m */,
+			);
+			path = "Composite Prototype Iterator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,10 +351,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C49F01120FEE3EE00BE0D1B /* CoordinatingController.m in Sources */,
+				2CF8E42621003EB400BA06AC /* Vertex.m in Sources */,
 				2C49F00520FEE34C00BE0D1B /* PaletteViewController.m in Sources */,
 				2C49EFD820FEE27600BE0D1B /* main.m in Sources */,
 				2C49EFCA20FEE27500BE0D1B /* AppDelegate.m in Sources */,
 				2C49F00B20FEE36300BE0D1B /* ThumbnailViewController.m in Sources */,
+				2CF8E42921003FCA00BA06AC /* Dot.m in Sources */,
+				2CF8E42321003C3100BA06AC /* Stroke.m in Sources */,
 				2C49EFFF20FEE32600BE0D1B /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
