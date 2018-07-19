@@ -53,4 +53,16 @@
 - (NSUInteger)count {
     return [_children count];
 }
+
+- (void)drawWithContext:(CGContextRef)context {
+    CGPoint point = self.location;
+    CGFloat x = point.x;
+    CGFloat y = point.y;
+    CGContextMoveToPoint(context, x, y);
+    for (id<Mark> mark in _children) {
+        [mark drawWithContext:context];
+    }
+    CGContextSetStrokeColorWithColor(context, [self.color CGColor]);
+    CGContextStrokePath(context);
+}
 @end

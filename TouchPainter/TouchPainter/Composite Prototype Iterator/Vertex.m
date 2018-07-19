@@ -23,4 +23,10 @@
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index {return nil;}
 - (id<Mark>)lastChild {return nil;}
 - (NSUInteger)count {return 0;}
+
+- (void)drawWithContext:(CGContextRef)context {
+    CGFloat x = self.location.x;
+    CGFloat y = self.location.y;
+    CGContextAddLineToPoint(context, x, y);
+}
 @end

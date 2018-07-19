@@ -22,5 +22,6 @@
 - (void)removeMark:(id<Mark>)mark;
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index;
 
-
+// 所有节点都可以绘制，添加一个公共绘制方法
+- (void)drawWithContext:(CGContextRef)context;
 @end
