@@ -24,6 +24,10 @@
 - (id<Mark>)lastChild {return nil;}
 - (NSUInteger)count {return 0;}
 
+- (void)acceptMarkVisitor:(id<MarkVisitor>)visitor {
+    [visitor visitVertex:self];
+}
+
 - (void)drawWithContext:(CGContextRef)context {
     CGFloat x = self.location.x;
     CGFloat y = self.location.y;

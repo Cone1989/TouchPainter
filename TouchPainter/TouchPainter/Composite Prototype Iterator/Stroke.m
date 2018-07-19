@@ -54,6 +54,13 @@
     return [_children count];
 }
 
+- (void)acceptMarkVisitor:(id<MarkVisitor>)visitor {
+    for (id<Mark> mark in _children) {
+        [mark acceptMarkVisitor:visitor];
+    }
+    [visitor visitStroke:self];
+}
+
 - (void)drawWithContext:(CGContextRef)context {
     CGPoint point = self.location;
     CGFloat x = point.x;

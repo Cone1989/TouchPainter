@@ -8,7 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "MarkVisitor.h"
 
 @protocol Mark <NSObject>
 
@@ -21,6 +21,8 @@
 - (void)addMark:(id<Mark>)mark;
 - (void)removeMark:(id<Mark>)mark;
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index;
+
+- (void) acceptMarkVisitor:(id <MarkVisitor>) visitor;
 
 // 所有节点都可以绘制，添加一个公共绘制方法
 - (void)drawWithContext:(CGContextRef)context;
