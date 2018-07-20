@@ -13,6 +13,7 @@
     if (self = [super init])
     {
         _context = context;
+        _shouldMoveContextToDot = YES;
     }
     
     return self;

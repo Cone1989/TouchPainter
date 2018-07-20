@@ -24,6 +24,10 @@
 
 - (void) acceptMarkVisitor:(id <MarkVisitor>) visitor;
 
-// 所有节点都可以绘制，添加一个公共绘制方法
+
+/*
+ 一个不够好的示例，当要添加新功能时，总是要修改协议及其实现类。
+ */
+// 所有节点都可以绘制，添加一个公共绘制方法。
 - (void)drawWithContext:(CGContextRef)context;
 @end
