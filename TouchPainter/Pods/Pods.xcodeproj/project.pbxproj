@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B3D45E116D506EA34E0ED176DFB7F2E /* Pods-TouchPainterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4072A181AB97B6023EA90B3762B8A6A /* Pods-TouchPainterUITests-dummy.m */; };
+		CDE6C58789112C66FB88A6564328EC09 /* Pods-TouchPainterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33F084B591660761133C2A4086CB92 /* Pods-TouchPainterTests-dummy.m */; };
+		D62B20B8A943FF3A200CEB5274D8C77D /* Pods-TouchPainter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344A7B9D9542DC3CE65BA297C1BC9B2 /* Pods-TouchPainter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40380430BD562BF5F5763FC406B47E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEB8D52B9922915ECE64159FB2C53E2;
+			remoteInfo = "Pods-TouchPainter";
+		};
+		CE102F88B46ACD23456701D2E792F456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEB8D52B9922915ECE64159FB2C53E2;
+			remoteInfo = "Pods-TouchPainter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A93689804CFD7287FF16DBFFC508DE1 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CrashReporter.framework; path = "iOS Framework/CrashReporter.framework"; sourceTree = "<group>"; };
+		1D2C34BFEC019A625699643A94176B66 /* libPods-TouchPainterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TouchPainterTests.a"; path = "libPods-TouchPainterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51044DE643EAA2D8965ED5FD12CD3B0A /* Pods-TouchPainter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainter-resources.sh"; sourceTree = "<group>"; };
+		5B16F9EE30C037CB7EA02C60CE5734F4 /* Pods-TouchPainterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8C6D20A609151C2622A890756D8DA6 /* Pods-TouchPainter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainter-frameworks.sh"; sourceTree = "<group>"; };
+		7344A7B9D9542DC3CE65BA297C1BC9B2 /* Pods-TouchPainter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchPainter-dummy.m"; sourceTree = "<group>"; };
+		8A6D5E6470A25AB3364FB40547CEDC1D /* Pods-TouchPainterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB45A0FE091A5F36AD6CE2793FA1CBA /* Pods-TouchPainter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainter.release.xcconfig"; sourceTree = "<group>"; };
+		AA4AA50EF50545C7596BD241D22DAEB5 /* Pods-TouchPainter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchPainter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B616A6D4ADFF77767D5C7ABA144EC552 /* Pods-TouchPainterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9C02FFCBE20A71A2AE612FCE362F97 /* Pods-TouchPainterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchPainterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BEA7833A685DAF37186990F1FEC6FB41 /* Pods-TouchPainterUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainterUITests-resources.sh"; sourceTree = "<group>"; };
+		C37FF12032DAD0287595FECE4E5DB6E0 /* Pods-TouchPainter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainter.debug.xcconfig"; sourceTree = "<group>"; };
+		C97055628806E3E7F8AD82488732A96E /* Pods-TouchPainterTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainterTests-frameworks.sh"; sourceTree = "<group>"; };
+		C9B851C92BC347961DAEB2214357B332 /* libPods-TouchPainterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TouchPainterUITests.a"; path = "libPods-TouchPainterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D2FBB858C3F3FDF3FAE356349CB501 /* Pods-TouchPainterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4072A181AB97B6023EA90B3762B8A6A /* Pods-TouchPainterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchPainterUITests-dummy.m"; sourceTree = "<group>"; };
+		D461BEF46ED1AEDA99A5BE7613F9EF78 /* Pods-TouchPainter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchPainter-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7632649152ADF310914C22AA4AD91D3 /* Pods-TouchPainterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchPainterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E02CC0EBCEFA33A5D78E7800D26CA336 /* Pods-TouchPainterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchPainterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2589B9F7C287254F252E3F6D842EFCC /* Pods-TouchPainterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchPainterTests-resources.sh"; sourceTree = "<group>"; };
+		EB33F084B591660761133C2A4086CB92 /* Pods-TouchPainterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchPainterTests-dummy.m"; sourceTree = "<group>"; };
+		EF9D296634997A8AAF9FCB4B0B1EDAB1 /* Pods-TouchPainterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchPainterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F47627F880D2227D8061CDB30B61F50B /* Pods-TouchPainterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchPainterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA2CAA474199BA92ACE1A80BC768EC51 /* libPods-TouchPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TouchPainter.a"; path = "libPods-TouchPainter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CD18BB3A22D1F436C737252879135C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8440ACCEF9D4DBC7165130734364A812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1BE40BC10F7AC01E5C0A905B9882A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0694C0D32F3EDB9546B362ED3DDC14CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED7A44CB8390251FC8A993AB0F310C0 /* Pods-TouchPainter */,
+				20ED9D5DD2D2F19B2C9F25B3794FBD31 /* Pods-TouchPainterTests */,
+				22A7B4965718D7F0E6D56D359CF07313 /* Pods-TouchPainterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		148EDC6E5672ECB9AAEDC89F6F647634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A93689804CFD7287FF16DBFFC508DE1 /* CrashReporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20ED9D5DD2D2F19B2C9F25B3794FBD31 /* Pods-TouchPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E02CC0EBCEFA33A5D78E7800D26CA336 /* Pods-TouchPainterTests-acknowledgements.markdown */,
+				BE9C02FFCBE20A71A2AE612FCE362F97 /* Pods-TouchPainterTests-acknowledgements.plist */,
+				EB33F084B591660761133C2A4086CB92 /* Pods-TouchPainterTests-dummy.m */,
+				C97055628806E3E7F8AD82488732A96E /* Pods-TouchPainterTests-frameworks.sh */,
+				E2589B9F7C287254F252E3F6D842EFCC /* Pods-TouchPainterTests-resources.sh */,
+				B616A6D4ADFF77767D5C7ABA144EC552 /* Pods-TouchPainterTests.debug.xcconfig */,
+				F47627F880D2227D8061CDB30B61F50B /* Pods-TouchPainterTests.release.xcconfig */,
+			);
+			name = "Pods-TouchPainterTests";
+			path = "Target Support Files/Pods-TouchPainterTests";
+			sourceTree = "<group>";
+		};
+		22A7B4965718D7F0E6D56D359CF07313 /* Pods-TouchPainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D296634997A8AAF9FCB4B0B1EDAB1 /* Pods-TouchPainterUITests-acknowledgements.markdown */,
+				D7632649152ADF310914C22AA4AD91D3 /* Pods-TouchPainterUITests-acknowledgements.plist */,
+				D4072A181AB97B6023EA90B3762B8A6A /* Pods-TouchPainterUITests-dummy.m */,
+				8A6D5E6470A25AB3364FB40547CEDC1D /* Pods-TouchPainterUITests-frameworks.sh */,
+				BEA7833A685DAF37186990F1FEC6FB41 /* Pods-TouchPainterUITests-resources.sh */,
+				5B16F9EE30C037CB7EA02C60CE5734F4 /* Pods-TouchPainterUITests.debug.xcconfig */,
+				D2D2FBB858C3F3FDF3FAE356349CB501 /* Pods-TouchPainterUITests.release.xcconfig */,
+			);
+			name = "Pods-TouchPainterUITests";
+			path = "Target Support Files/Pods-TouchPainterUITests";
+			sourceTree = "<group>";
+		};
+		2ED7A44CB8390251FC8A993AB0F310C0 /* Pods-TouchPainter */ = {
+			isa = PBXGroup;
+			children = (
+				AA4AA50EF50545C7596BD241D22DAEB5 /* Pods-TouchPainter-acknowledgements.markdown */,
+				D461BEF46ED1AEDA99A5BE7613F9EF78 /* Pods-TouchPainter-acknowledgements.plist */,
+				7344A7B9D9542DC3CE65BA297C1BC9B2 /* Pods-TouchPainter-dummy.m */,
+				6E8C6D20A609151C2622A890756D8DA6 /* Pods-TouchPainter-frameworks.sh */,
+				51044DE643EAA2D8965ED5FD12CD3B0A /* Pods-TouchPainter-resources.sh */,
+				C37FF12032DAD0287595FECE4E5DB6E0 /* Pods-TouchPainter.debug.xcconfig */,
+				9CB45A0FE091A5F36AD6CE2793FA1CBA /* Pods-TouchPainter.release.xcconfig */,
+			);
+			name = "Pods-TouchPainter";
+			path = "Target Support Files/Pods-TouchPainter";
+			sourceTree = "<group>";
+		};
+		77BAECB6CCFE1DAD72E9BE3B196F2589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2CAA474199BA92ACE1A80BC768EC51 /* libPods-TouchPainter.a */,
+				1D2C34BFEC019A625699643A94176B66 /* libPods-TouchPainterTests.a */,
+				C9B851C92BC347961DAEB2214357B332 /* libPods-TouchPainterUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				9AEB2423CE76BCDB86FC6221159C2056 /* Pods */,
+				77BAECB6CCFE1DAD72E9BE3B196F2589 /* Products */,
+				0694C0D32F3EDB9546B362ED3DDC14CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEB2423CE76BCDB86FC6221159C2056 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0C7A0381A5B47533B9FDDB3D8342E9C /* PLCrashReporter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0C7A0381A5B47533B9FDDB3D8342E9C /* PLCrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				148EDC6E5672ECB9AAEDC89F6F647634 /* Frameworks */,
+			);
+			name = PLCrashReporter;
+			path = PLCrashReporter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CEB8D52B9922915ECE64159FB2C53E2 /* Pods-TouchPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5085FC1D6618E5709B3F5C8B5A226960 /* Build configuration list for PBXNativeTarget "Pods-TouchPainter" */;
+			buildPhases = (
+				5151BEB3391E1683102AFC389E505504 /* Sources */,
+				9D1BE40BC10F7AC01E5C0A905B9882A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchPainter";
+			productName = "Pods-TouchPainter";
+			productReference = FA2CAA474199BA92ACE1A80BC768EC51 /* libPods-TouchPainter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A428F2E6E349D1B733B5F4AD27D0F2DA /* Pods-TouchPainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D735BDC041FF2B376601533EE3CC528F /* Build configuration list for PBXNativeTarget "Pods-TouchPainterUITests" */;
+			buildPhases = (
+				679F260B39F780F54543AD279B6E6A99 /* Sources */,
+				4CD18BB3A22D1F436C737252879135C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED6D91F378AB1DEB39BB65B171BE208 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchPainterUITests";
+			productName = "Pods-TouchPainterUITests";
+			productReference = C9B851C92BC347961DAEB2214357B332 /* libPods-TouchPainterUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8746D05F462CA214BCB29CE1E6A790C /* Pods-TouchPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10064119C4C5D9AC23F953C6F078E86E /* Build configuration list for PBXNativeTarget "Pods-TouchPainterTests" */;
+			buildPhases = (
+				E9C3B21223CBB632220717658187823F /* Sources */,
+				8440ACCEF9D4DBC7165130734364A812 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC7EA7B6DDF15F40987AA31917DEA7C /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchPainterTests";
+			productName = "Pods-TouchPainterTests";
+			productReference = 1D2C34BFEC019A625699643A94176B66 /* libPods-TouchPainterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 77BAECB6CCFE1DAD72E9BE3B196F2589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CEB8D52B9922915ECE64159FB2C53E2 /* Pods-TouchPainter */,
+				D8746D05F462CA214BCB29CE1E6A790C /* Pods-TouchPainterTests */,
+				A428F2E6E349D1B733B5F4AD27D0F2DA /* Pods-TouchPainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5151BEB3391E1683102AFC389E505504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62B20B8A943FF3A200CEB5274D8C77D /* Pods-TouchPainter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679F260B39F780F54543AD279B6E6A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3D45E116D506EA34E0ED176DFB7F2E /* Pods-TouchPainterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C3B21223CBB632220717658187823F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE6C58789112C66FB88A6564328EC09 /* Pods-TouchPainterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC7EA7B6DDF15F40987AA31917DEA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchPainter";
+			target = 8CEB8D52B9922915ECE64159FB2C53E2 /* Pods-TouchPainter */;
+			targetProxy = 40380430BD562BF5F5763FC406B47E8E /* PBXContainerItemProxy */;
+		};
+		4ED6D91F378AB1DEB39BB65B171BE208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchPainter";
+			target = 8CEB8D52B9922915ECE64159FB2C53E2 /* Pods-TouchPainter */;
+			targetProxy = CE102F88B46ACD23456701D2E792F456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21DC18D2BB3113671184C70F4ACDB11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47627F880D2227D8061CDB30B61F50B /* Pods-TouchPainterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29D72D4954E5FCB5656B8BB7612344A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D2FBB858C3F3FDF3FAE356349CB501 /* Pods-TouchPainterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B5FDD7074FF8140DF0BCB2A8E9FE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B16F9EE30C037CB7EA02C60CE5734F4 /* Pods-TouchPainterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9134E4B704FFF3F478B500383D6C90BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB45A0FE091A5F36AD6CE2793FA1CBA /* Pods-TouchPainter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EA467718ADED15E7222D8BE37E23F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37FF12032DAD0287595FECE4E5DB6E0 /* Pods-TouchPainter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A58052C594E1A1E645731DF64AEB652D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B616A6D4ADFF77767D5C7ABA144EC552 /* Pods-TouchPainterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10064119C4C5D9AC23F953C6F078E86E /* Build configuration list for PBXNativeTarget "Pods-TouchPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58052C594E1A1E645731DF64AEB652D /* Debug */,
+				21DC18D2BB3113671184C70F4ACDB11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5085FC1D6618E5709B3F5C8B5A226960 /* Build configuration list for PBXNativeTarget "Pods-TouchPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA467718ADED15E7222D8BE37E23F6A /* Debug */,
+				9134E4B704FFF3F478B500383D6C90BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D735BDC041FF2B376601533EE3CC528F /* Build configuration list for PBXNativeTarget "Pods-TouchPainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B5FDD7074FF8140DF0BCB2A8E9FE95 /* Debug */,
+				29D72D4954E5FCB5656B8BB7612344A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

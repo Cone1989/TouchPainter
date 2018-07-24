@@ -26,6 +26,9 @@
 		2CF8E42621003EB400BA06AC /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42521003EB400BA06AC /* Vertex.m */; };
 		2CF8E42921003FCA00BA06AC /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42821003FCA00BA06AC /* Dot.m */; };
 		2CF8E4472100B23F00BA06AC /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E4462100B23F00BA06AC /* MarkRenderer.m */; };
+		68680F2BF951383A3F1B1CDB /* libPods-TouchPainterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD45A4CBEE44C3256F429FF4 /* libPods-TouchPainterUITests.a */; };
+		8E9778F678E14A04DA851DF5 /* libPods-TouchPainter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F86D1E1C95A4F2272982EB /* libPods-TouchPainter.a */; };
+		F9088AA63F84CE249EC155D5 /* libPods-TouchPainterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D87D2642B43AF869ACEB5EA /* libPods-TouchPainterTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,15 @@
 		2CF8E4442100B1CF00BA06AC /* MarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkVisitor.h; sourceTree = "<group>"; };
 		2CF8E4452100B23F00BA06AC /* MarkRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarkRenderer.h; sourceTree = "<group>"; };
 		2CF8E4462100B23F00BA06AC /* MarkRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarkRenderer.m; sourceTree = "<group>"; };
+		2D87D2642B43AF869ACEB5EA /* libPods-TouchPainterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchPainterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356C6579893E4DDA959B24A9 /* Pods-TouchPainterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainterUITests/Pods-TouchPainterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C982E9D64C4297E7B07764A /* Pods-TouchPainterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainterUITests/Pods-TouchPainterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C8F3BE9719FA5E8D189C785 /* Pods-TouchPainterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainterTests/Pods-TouchPainterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87F86D1E1C95A4F2272982EB /* libPods-TouchPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchPainter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9899DF706D7C452176F65FE5 /* Pods-TouchPainterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainterTests/Pods-TouchPainterTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD45A4CBEE44C3256F429FF4 /* libPods-TouchPainterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchPainterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41A265905FB6BC3F76A022D /* Pods-TouchPainter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.release.xcconfig"; sourceTree = "<group>"; };
+		F6221EBE0A1D41561C26BA3F /* Pods-TouchPainter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouchPainter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouchPainter/Pods-TouchPainter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9778F678E14A04DA851DF5 /* libPods-TouchPainter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9088AA63F84CE249EC155D5 /* libPods-TouchPainterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68680F2BF951383A3F1B1CDB /* libPods-TouchPainterUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +134,8 @@
 				2C49EFE020FEE27600BE0D1B /* TouchPainterTests */,
 				2C49EFEB20FEE27600BE0D1B /* TouchPainterUITests */,
 				2C49EFC620FEE27500BE0D1B /* Products */,
+				BFB7B0D39BB1367CE2BB2999 /* Pods */,
+				A72B2647E39A5A96803CC039 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -261,6 +278,29 @@
 			path = Vistor;
 			sourceTree = "<group>";
 		};
+		A72B2647E39A5A96803CC039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87F86D1E1C95A4F2272982EB /* libPods-TouchPainter.a */,
+				2D87D2642B43AF869ACEB5EA /* libPods-TouchPainterTests.a */,
+				CD45A4CBEE44C3256F429FF4 /* libPods-TouchPainterUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB7B0D39BB1367CE2BB2999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6221EBE0A1D41561C26BA3F /* Pods-TouchPainter.debug.xcconfig */,
+				E41A265905FB6BC3F76A022D /* Pods-TouchPainter.release.xcconfig */,
+				4C8F3BE9719FA5E8D189C785 /* Pods-TouchPainterTests.debug.xcconfig */,
+				9899DF706D7C452176F65FE5 /* Pods-TouchPainterTests.release.xcconfig */,
+				3C982E9D64C4297E7B07764A /* Pods-TouchPainterUITests.debug.xcconfig */,
+				356C6579893E4DDA959B24A9 /* Pods-TouchPainterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C49EFF120FEE27600BE0D1B /* Build configuration list for PBXNativeTarget "TouchPainter" */;
 			buildPhases = (
+				07A9BBE5D287C356CEA2EBFE /* [CP] Check Pods Manifest.lock */,
 				2C49EFC120FEE27500BE0D1B /* Sources */,
 				2C49EFC220FEE27500BE0D1B /* Frameworks */,
 				2C49EFC320FEE27500BE0D1B /* Resources */,
@@ -285,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C49EFF420FEE27600BE0D1B /* Build configuration list for PBXNativeTarget "TouchPainterTests" */;
 			buildPhases = (
+				E5197745DA88C2CCEC5FB183 /* [CP] Check Pods Manifest.lock */,
 				2C49EFD920FEE27600BE0D1B /* Sources */,
 				2C49EFDA20FEE27600BE0D1B /* Frameworks */,
 				2C49EFDB20FEE27600BE0D1B /* Resources */,
@@ -303,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C49EFF720FEE27600BE0D1B /* Build configuration list for PBXNativeTarget "TouchPainterUITests" */;
 			buildPhases = (
+				8320EF8E75E15F362AF72AE8 /* [CP] Check Pods Manifest.lock */,
 				2C49EFE420FEE27600BE0D1B /* Sources */,
 				2C49EFE520FEE27600BE0D1B /* Frameworks */,
 				2C49EFE620FEE27600BE0D1B /* Resources */,
@@ -387,6 +430,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A9BBE5D287C356CEA2EBFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchPainter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8320EF8E75E15F362AF72AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchPainterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5197745DA88C2CCEC5FB183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TouchPainterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C49EFC120FEE27500BE0D1B /* Sources */ = {
@@ -563,6 +663,7 @@
 		};
 		2C49EFF220FEE27600BE0D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6221EBE0A1D41561C26BA3F /* Pods-TouchPainter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -582,6 +683,7 @@
 		};
 		2C49EFF320FEE27600BE0D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41A265905FB6BC3F76A022D /* Pods-TouchPainter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +703,7 @@
 		};
 		2C49EFF520FEE27600BE0D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8F3BE9719FA5E8D189C785 /* Pods-TouchPainterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +722,7 @@
 		};
 		2C49EFF620FEE27600BE0D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9899DF706D7C452176F65FE5 /* Pods-TouchPainterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -637,6 +741,7 @@
 		};
 		2C49EFF820FEE27600BE0D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C982E9D64C4297E7B07764A /* Pods-TouchPainterUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
@@ -654,6 +759,7 @@
 		};
 		2C49EFF920FEE27600BE0D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356C6579893E4DDA959B24A9 /* Pods-TouchPainterUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
