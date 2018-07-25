@@ -18,4 +18,5 @@
 }
 @property(nonatomic, strong) CanvasView *canvasView;
 @property(nonatomic, strong) Scribble *scribble;
+- (IBAction)onBarButtonHit:(UIBarButtonItem *)sender;
 @end

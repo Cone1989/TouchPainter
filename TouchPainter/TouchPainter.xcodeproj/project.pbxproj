@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C38A9D9210805E8008DF10D /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38A9D8210805E8008DF10D /* ScribbleManager.m */; };
 		2C49EFCA20FEE27500BE0D1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49EFC920FEE27500BE0D1B /* AppDelegate.m */; };
 		2C49EFD220FEE27600BE0D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C49EFD120FEE27600BE0D1B /* Assets.xcassets */; };
 		2C49EFD520FEE27600BE0D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C49EFD320FEE27600BE0D1B /* LaunchScreen.storyboard */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C38A9D7210805E8008DF10D /* ScribbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
+		2C38A9D8210805E8008DF10D /* ScribbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
 		2C49EFC520FEE27500BE0D1B /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C49EFC820FEE27500BE0D1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C49EFC920FEE27500BE0D1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -247,6 +250,8 @@
 				2C52706E210180A300A98DCD /* Scribble.m */,
 				2C8F6F7421070DC700D4C0F5 /* ScribbleMemento.h */,
 				2C8F6F7521070DC700D4C0F5 /* ScribbleMemento.m */,
+				2C38A9D7210805E8008DF10D /* ScribbleManager.h */,
+				2C38A9D8210805E8008DF10D /* ScribbleManager.m */,
 				2C8F6F772107162F00D4C0F5 /* ScribbleMemento+Friend.h */,
 			);
 			path = "Memento Observer";
@@ -505,6 +510,7 @@
 				2C5270732101843200A98DCD /* CanvasView.m in Sources */,
 				2C49F00520FEE34C00BE0D1B /* PaletteViewController.m in Sources */,
 				2C52706F210180A300A98DCD /* Scribble.m in Sources */,
+				2C38A9D9210805E8008DF10D /* ScribbleManager.m in Sources */,
 				2C49EFD820FEE27600BE0D1B /* main.m in Sources */,
 				2C8F6F7621070DC700D4C0F5 /* ScribbleMemento.m in Sources */,
 				2C49EFCA20FEE27500BE0D1B /* AppDelegate.m in Sources */,

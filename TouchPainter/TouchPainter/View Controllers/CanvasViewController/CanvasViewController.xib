@@ -40,9 +40,17 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="cde-4m-jet"/>
-                        <barButtonItem title="undo" image="undo" id="fDN-88-Fa3"/>
+                        <barButtonItem tag="4" title="undo" image="undo" id="fDN-88-Fa3">
+                            <connections>
+                                <action selector="onBarButtonHit:" destination="-1" id="ZVe-4F-2fF"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="f55-q9-JpD"/>
-                        <barButtonItem title="redo" image="redo" id="rPQ-w8-n4T"/>
+                        <barButtonItem tag="5" title="redo" image="redo" id="rPQ-w8-n4T">
+                            <connections>
+                                <action selector="onBarButtonHit:" destination="-1" id="hDK-j3-btq"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                 </toolbar>
             </subviews>
