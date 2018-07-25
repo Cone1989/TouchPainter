@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Mark.h"
+#import "ScribbleMemento.h"
 /*
  涂鸦模型，对应于MVC中的M。
  */
@@ -21,4 +22,26 @@
  */
 - (void)addMark:(id <Mark>)aMark shouldAddToPreviousMark:(BOOL)shouldAddToPreviousMark;
 - (void)removeMark:(id<Mark>)aMark;
+
+#pragma mark - memento methods
+/**
+ 通过备忘录生成涂鸦模型
+ */
+- (instancetype)initWithMemento:(ScribbleMemento*)aMemento;
++ (instancetype)scribbleWithMemento:(ScribbleMemento*)aMemento;
+/**
+ 获取备忘录模型。使用完整结构
+ */
+- (ScribbleMemento*)scribbleMemento;
+/**
+ 获取备忘录模型。
+
+ @param hasCompleteSnapshot 是否使用完整模型？如果不是，则使用增量模型
+ @return 备忘录模型
+ */
+- (ScribbleMemento*)scribbleMementoWithCompleteSnapshot:(BOOL)hasCompleteSnapshot;
+/**
+ 追加备忘录模型到涂鸦模型
+ */
+- (void)attachStateFromMemento:(ScribbleMemento*)memento;
 @end

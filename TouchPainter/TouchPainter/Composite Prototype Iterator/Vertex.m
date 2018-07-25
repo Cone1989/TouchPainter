@@ -33,4 +33,15 @@
     CGFloat y = self.location.y;
     CGContextAddLineToPoint(context, x, y);
 }
+
+#pragma mark - NSCoding
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        _location = [[aDecoder decodeObjectForKey:@"VertexLocation"] CGPointValue];
+    }
+    return self;
+}
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeObject:[NSValue valueWithCGPoint:_location] forKey:@"VertexLocation"];
+}
 @end

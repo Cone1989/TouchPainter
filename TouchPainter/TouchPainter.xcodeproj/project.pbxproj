@@ -22,6 +22,7 @@
 		2C49F01120FEE3EE00BE0D1B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F01020FEE3EE00BE0D1B /* CoordinatingController.m */; };
 		2C52706F210180A300A98DCD /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C52706E210180A300A98DCD /* Scribble.m */; };
 		2C5270732101843200A98DCD /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5270722101843200A98DCD /* CanvasView.m */; };
+		2C8F6F7621070DC700D4C0F5 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F6F7521070DC700D4C0F5 /* ScribbleMemento.m */; };
 		2CF8E42321003C3100BA06AC /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42221003C3100BA06AC /* Stroke.m */; };
 		2CF8E42621003EB400BA06AC /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42521003EB400BA06AC /* Vertex.m */; };
 		2CF8E42921003FCA00BA06AC /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E42821003FCA00BA06AC /* Dot.m */; };
@@ -78,6 +79,9 @@
 		2C5270712101843200A98DCD /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		2C5270722101843200A98DCD /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		2C5270742101892B00A98DCD /* TouchPainter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchPainter.pch; sourceTree = "<group>"; };
+		2C8F6F7421070DC700D4C0F5 /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
+		2C8F6F7521070DC700D4C0F5 /* ScribbleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
+		2C8F6F772107162F00D4C0F5 /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
 		2CF8E42021003B3300BA06AC /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		2CF8E42121003C3100BA06AC /* Stroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
 		2CF8E42221003C3100BA06AC /* Stroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
@@ -241,6 +245,9 @@
 			children = (
 				2C52706D210180A300A98DCD /* Scribble.h */,
 				2C52706E210180A300A98DCD /* Scribble.m */,
+				2C8F6F7421070DC700D4C0F5 /* ScribbleMemento.h */,
+				2C8F6F7521070DC700D4C0F5 /* ScribbleMemento.m */,
+				2C8F6F772107162F00D4C0F5 /* ScribbleMemento+Friend.h */,
 			);
 			path = "Memento Observer";
 			sourceTree = "<group>";
@@ -499,6 +506,7 @@
 				2C49F00520FEE34C00BE0D1B /* PaletteViewController.m in Sources */,
 				2C52706F210180A300A98DCD /* Scribble.m in Sources */,
 				2C49EFD820FEE27600BE0D1B /* main.m in Sources */,
+				2C8F6F7621070DC700D4C0F5 /* ScribbleMemento.m in Sources */,
 				2C49EFCA20FEE27500BE0D1B /* AppDelegate.m in Sources */,
 				2CF8E4472100B23F00BA06AC /* MarkRenderer.m in Sources */,
 				2C49F00B20FEE36300BE0D1B /* ThumbnailViewController.m in Sources */,
@@ -668,6 +676,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSLNCGKRF8;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TouchPainter/TouchPainter.pch";
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -688,6 +697,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSLNCGKRF8;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TouchPainter/TouchPainter.pch";
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

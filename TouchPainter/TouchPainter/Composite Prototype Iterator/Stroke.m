@@ -72,4 +72,17 @@
     CGContextSetStrokeColorWithColor(context, [self.color CGColor]);
     CGContextStrokePath(context);
 }
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        _color = [aDecoder decodeObjectForKey:@"StrokeColor"];
+        _size = [aDecoder decodeFloatForKey:@"StrokeSize"];
+        _children = [aDecoder decodeObjectForKey:@"StrokeChildren"];
+    }
+    return self;
+}
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeObject:_color forKey:@"StrokeColor"];
+    [aCoder encodeFloat:_size forKey:@"StrokeSize"];
+    [aCoder encodeObject:_children forKey:@"StrokeChildren"];
+}
 @end

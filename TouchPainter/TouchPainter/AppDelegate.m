@@ -21,7 +21,6 @@
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     
-    
     CanvasViewController *canvas = [CoordinatingController sharedInstance].canvasViewController;
     _window.rootViewController = canvas;
     
