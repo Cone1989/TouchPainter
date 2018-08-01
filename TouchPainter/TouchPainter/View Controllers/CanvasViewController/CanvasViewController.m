@@ -11,6 +11,7 @@
 #import "Stroke.h"
 #import "DrawScribbleCommand.h"
 #import "NSMutableArray+Stack.h"
+#import "PaperCanvasViewGenerator.h"
 #define undoManagerType
 #define commandType
 @interface CanvasViewController ()
@@ -37,12 +38,17 @@
     Scribble *scribble = [[Scribble alloc] init];
     [self setScribble:scribble];
     
+    
+    CanvasViewGenerator *generator = [[PaperCanvasViewGenerator alloc] init];
+    [self loadCanvasViewWithGenerator:generator];
+    
+}
+- (void)loadCanvasViewWithGenerator:(CanvasViewGenerator*)generator {
+    [_canvasView removeFromSuperview];
     CGRect aFrame = CGRectMake(0, 0, kScreenWidth, kScreenHeight - 200);
-    CanvasView *aCanvasView = [[CanvasView alloc] initWithFrame:aFrame];
+    CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
     [self setCanvasView:aCanvasView];
-    
     [self.view addSubview:_canvasView];
-    
 }
 
 - (void)setScribble:(Scribble *)scribble {

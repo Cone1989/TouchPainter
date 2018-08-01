@@ -28,6 +28,11 @@
 		2C49F01120FEE3EE00BE0D1B /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C49F01020FEE3EE00BE0D1B /* CoordinatingController.m */; };
 		2C52706F210180A300A98DCD /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C52706E210180A300A98DCD /* Scribble.m */; };
 		2C5270732101843200A98DCD /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5270722101843200A98DCD /* CanvasView.m */; };
+		2C5CBFF7211189A5004F33BE /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CBFF6211189A5004F33BE /* ClothCanvasView.m */; };
+		2C5CBFFA211189B4004F33BE /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CBFF9211189B4004F33BE /* PaperCanvasView.m */; };
+		2C5CBFFE211189EF004F33BE /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CBFFD211189EF004F33BE /* CanvasViewGenerator.m */; };
+		2C5CC00121118A77004F33BE /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CC00021118A77004F33BE /* ClothCanvasViewGenerator.m */; };
+		2C5CC00421118A8B004F33BE /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CC00321118A8B004F33BE /* PaperCanvasViewGenerator.m */; };
 		2C6003112110340C003E520B /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6003102110340C003E520B /* SetStrokeColorCommand.m */; };
 		2C6003152110344A003E520B /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6003142110344A003E520B /* CommandSlider.m */; };
 		2C60031821103D94003E520B /* SetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60031721103D94003E520B /* SetStrokeSizeCommand.m */; };
@@ -102,6 +107,16 @@
 		2C5270712101843200A98DCD /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		2C5270722101843200A98DCD /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		2C5270742101892B00A98DCD /* TouchPainter.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchPainter.pch; sourceTree = "<group>"; };
+		2C5CBFF5211189A5004F33BE /* ClothCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		2C5CBFF6211189A5004F33BE /* ClothCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		2C5CBFF8211189B4004F33BE /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		2C5CBFF9211189B4004F33BE /* PaperCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		2C5CBFFC211189EF004F33BE /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		2C5CBFFD211189EF004F33BE /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		2C5CBFFF21118A77004F33BE /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		2C5CC00021118A77004F33BE /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		2C5CC00221118A8B004F33BE /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		2C5CC00321118A8B004F33BE /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
 		2C60030F2110340C003E520B /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
 		2C6003102110340C003E520B /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
 		2C6003132110344A003E520B /* CommandSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
@@ -229,6 +244,7 @@
 				2CF8E4432100B1B300BA06AC /* Vistor */,
 				2CF8E41F21003B0A00BA06AC /* Composite Prototype Iterator */,
 				2C49F00E20FEE3C400BE0D1B /* Mediator */,
+				2C5CBFFB211189CE004F33BE /* Factory Method */,
 				2C5270702101841400A98DCD /* Views */,
 				2C49EFFB20FEE31100BE0D1B /* View Controllers */,
 				2C49EFD120FEE27600BE0D1B /* Assets.xcassets */,
@@ -325,8 +341,25 @@
 			children = (
 				2C5270712101843200A98DCD /* CanvasView.h */,
 				2C5270722101843200A98DCD /* CanvasView.m */,
+				2C5CBFF5211189A5004F33BE /* ClothCanvasView.h */,
+				2C5CBFF6211189A5004F33BE /* ClothCanvasView.m */,
+				2C5CBFF8211189B4004F33BE /* PaperCanvasView.h */,
+				2C5CBFF9211189B4004F33BE /* PaperCanvasView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2C5CBFFB211189CE004F33BE /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				2C5CBFFC211189EF004F33BE /* CanvasViewGenerator.h */,
+				2C5CBFFD211189EF004F33BE /* CanvasViewGenerator.m */,
+				2C5CBFFF21118A77004F33BE /* ClothCanvasViewGenerator.h */,
+				2C5CC00021118A77004F33BE /* ClothCanvasViewGenerator.m */,
+				2C5CC00221118A8B004F33BE /* PaperCanvasViewGenerator.h */,
+				2C5CC00321118A8B004F33BE /* PaperCanvasViewGenerator.m */,
+			);
+			path = "Factory Method";
 			sourceTree = "<group>";
 		};
 		2C60031221103436003E520B /* Command Slider */ = {
@@ -599,6 +632,7 @@
 				2C405F3B2109A6A100058469 /* DeleteScribbleCommand.m in Sources */,
 				2C49F01120FEE3EE00BE0D1B /* CoordinatingController.m in Sources */,
 				2CF8E42621003EB400BA06AC /* Vertex.m in Sources */,
+				2C5CBFF7211189A5004F33BE /* ClothCanvasView.m in Sources */,
 				2C60031821103D94003E520B /* SetStrokeSizeCommand.m in Sources */,
 				2C5270732101843200A98DCD /* CanvasView.m in Sources */,
 				2C6003112110340C003E520B /* SetStrokeColorCommand.m in Sources */,
@@ -611,12 +645,16 @@
 				2C49EFD820FEE27600BE0D1B /* main.m in Sources */,
 				2C405F382109735500058469 /* NSMutableArray+Stack.m in Sources */,
 				2C8F6F7621070DC700D4C0F5 /* ScribbleMemento.m in Sources */,
+				2C5CC00421118A8B004F33BE /* PaperCanvasViewGenerator.m in Sources */,
 				2C60031B2110427A003E520B /* SaveScribbleCommand.m in Sources */,
 				2C49EFCA20FEE27500BE0D1B /* AppDelegate.m in Sources */,
+				2C5CBFFE211189EF004F33BE /* CanvasViewGenerator.m in Sources */,
 				2CF8E4472100B23F00BA06AC /* MarkRenderer.m in Sources */,
 				2C49F00B20FEE36300BE0D1B /* ThumbnailViewController.m in Sources */,
+				2C5CBFFA211189B4004F33BE /* PaperCanvasView.m in Sources */,
 				2CF8E42921003FCA00BA06AC /* Dot.m in Sources */,
 				2CF8E42321003C3100BA06AC /* Stroke.m in Sources */,
+				2C5CC00121118A77004F33BE /* ClothCanvasViewGenerator.m in Sources */,
 				2C49EFFF20FEE32600BE0D1B /* CanvasViewController.m in Sources */,
 				2C6003152110344A003E520B /* CommandSlider.m in Sources */,
 			);

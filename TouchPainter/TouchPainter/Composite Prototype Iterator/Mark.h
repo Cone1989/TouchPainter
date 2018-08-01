@@ -18,7 +18,12 @@
 @property(nonatomic , assign , readonly)NSUInteger count;
 @property (nonatomic, readonly) id <Mark> lastChild;
 
+/*
+ 原型模式:使用原型实例指定创建对象的种类，并通过复制这个原型创建新的对象。
+ 在CocoaTouch中，NSObject就是抽象类，定义了接口`-(id)copy`。子类通过遵守`NSCopying`协议，实现`-(id)copyWithZone:`方法即可复制自己。
+ */
 - (id)copy;
+
 - (void)addMark:(id<Mark>)mark;
 - (void)removeMark:(id<Mark>)mark;
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index;
