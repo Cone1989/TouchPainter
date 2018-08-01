@@ -12,6 +12,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaletteViewController">
             <connections>
+                <outlet property="PaletteView" destination="ite-Jf-hO5" id="sy0-p8-HUE"/>
+                <outlet property="blueSlider" destination="9Q4-2m-Pd8" id="h5I-Re-pKi"/>
+                <outlet property="greenSlider" destination="0Ar-71-Adh" id="ROp-JG-R3Q"/>
+                <outlet property="redSlider" destination="Ic9-dm-KMb" id="Sfb-Jc-JVk"/>
+                <outlet property="sizeSlider" destination="elD-58-Hpj" id="c18-6v-35R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -56,19 +61,27 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ic9-dm-KMb">
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ic9-dm-KMb" customClass="CommandSlider">
                     <rect key="frame" x="38" y="105" width="299" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="295" id="SOH-tQ-Qk2"/>
                         <constraint firstAttribute="height" constant="29" id="qcd-Jc-aYI"/>
                     </constraints>
+                    <connections>
+                        <action selector="commandSliderValueChanged:" destination="-1" eventType="valueChanged" id="VB8-le-4gy"/>
+                        <outlet property="cmd" destination="Iju-5H-DOm" id="MFz-an-y5o"/>
+                    </connections>
                 </slider>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="5" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="elD-58-Hpj">
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="5" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="elD-58-Hpj" customClass="CommandSlider">
                     <rect key="frame" x="74" y="437" width="227" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="223" id="735-F3-pNa"/>
                         <constraint firstAttribute="height" constant="29" id="xbQ-uA-WnV"/>
                     </constraints>
+                    <connections>
+                        <action selector="commandSliderValueChanged:" destination="-1" eventType="valueChanged" id="mo7-WU-uBO"/>
+                        <outlet property="cmd" destination="mN9-Fb-NBG" id="NYJ-Xj-DrC"/>
+                    </connections>
                 </slider>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="large_dot" translatesAutoresizingMaskIntoConstraints="NO" id="eeM-3S-JVE">
                     <rect key="frame" x="48" y="441" width="20" height="20"/>
@@ -104,12 +117,16 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-71-Adh">
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-71-Adh" customClass="CommandSlider">
                     <rect key="frame" x="38" y="142" width="299" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="295" id="cqF-ew-b0Z"/>
                         <constraint firstAttribute="height" constant="29" id="rPp-H3-htP"/>
                     </constraints>
+                    <connections>
+                        <action selector="commandSliderValueChanged:" destination="-1" eventType="valueChanged" id="46A-Li-bqW"/>
+                        <outlet property="cmd" destination="Iju-5H-DOm" id="paA-zn-1rC"/>
+                    </connections>
                 </slider>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCy-na-9fJ">
                     <rect key="frame" x="25" y="183" width="11" height="21"/>
@@ -121,12 +138,16 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Q4-2m-Pd8">
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Q4-2m-Pd8" customClass="CommandSlider">
                     <rect key="frame" x="38" y="179" width="299" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="295" id="I9q-pH-2tg"/>
                         <constraint firstAttribute="height" constant="29" id="dG9-2P-Xdz"/>
                     </constraints>
+                    <connections>
+                        <action selector="commandSliderValueChanged:" destination="-1" eventType="valueChanged" id="o2y-Yt-Jvs"/>
+                        <outlet property="cmd" destination="Iju-5H-DOm" id="FWu-SJ-feb"/>
+                    </connections>
                 </slider>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ite-Jf-hO5">
                     <rect key="frame" x="67.5" y="243" width="240" height="128"/>
@@ -171,6 +192,17 @@
             <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
         <customObject id="e4v-u7-N3m" customClass="CoordinatingController"/>
+        <customObject id="Iju-5H-DOm" customClass="SetStrokeColorCommand">
+            <connections>
+                <outlet property="dataSource" destination="-1" id="b2M-Wt-7QF"/>
+                <outlet property="delegate" destination="-1" id="1el-7D-iuF"/>
+            </connections>
+        </customObject>
+        <customObject id="mN9-Fb-NBG" customClass="SetStrokeSizeCommand">
+            <connections>
+                <outlet property="dataSource" destination="-1" id="wXW-25-stS"/>
+            </connections>
+        </customObject>
     </objects>
     <resources>
         <image name="large_dot" width="95" height="100"/>

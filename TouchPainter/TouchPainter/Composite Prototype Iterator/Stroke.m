@@ -72,6 +72,7 @@
     CGContextSetStrokeColorWithColor(context, [self.color CGColor]);
     CGContextStrokePath(context);
 }
+#pragma mark - NSCoding
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super init]) {
         _color = [aDecoder decodeObjectForKey:@"StrokeColor"];
@@ -84,5 +85,16 @@
     [aCoder encodeObject:_color forKey:@"StrokeColor"];
     [aCoder encodeFloat:_size forKey:@"StrokeSize"];
     [aCoder encodeObject:_children forKey:@"StrokeChildren"];
+}
+#pragma mark - NSCopying
+- (id)copyWithZone:(NSZone *)zone {
+    Stroke *stroke = [[[self class] allocWithZone:zone] init];
+    stroke.color = _color;
+    stroke.size = _size;
+    for (id<Mark> mark in _children) {
+        id<Mark> newMark = [mark copy];
+        [stroke addMark:newMark];
+    }
+    return stroke;
 }
 @end

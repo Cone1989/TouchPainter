@@ -44,4 +44,10 @@
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:[NSValue valueWithCGPoint:_location] forKey:@"VertexLocation"];
 }
+#pragma mark - NSCopying
+- (id)copyWithZone:(NSZone *)zone {
+    Vertex *vertex = [[self class] allocWithZone:zone];
+    vertex.location = _location;
+    return vertex;
+}
 @end

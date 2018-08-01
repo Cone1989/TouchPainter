@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "MarkVisitor.h"
 
-@protocol Mark <NSObject,NSCoding>
+@protocol Mark <NSObject,NSCoding,NSCopying>
 
 @property(nonatomic, strong) UIColor *color;
 @property(nonatomic , assign)CGFloat size;
@@ -18,6 +18,7 @@
 @property(nonatomic , assign , readonly)NSUInteger count;
 @property (nonatomic, readonly) id <Mark> lastChild;
 
+- (id)copy;
 - (void)addMark:(id<Mark>)mark;
 - (void)removeMark:(id<Mark>)mark;
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index;

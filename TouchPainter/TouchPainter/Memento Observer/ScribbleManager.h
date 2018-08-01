@@ -74,7 +74,7 @@
 #import "Scribble.h"
 @interface ScribbleManager : NSObject
 /**
- 保存涂鸦模型与苏略图
+ 保存涂鸦模型与缩略图
 
  @param scribble 涂鸦模型
  @param image 缩略图

@@ -41,4 +41,11 @@
     [aCoder encodeObject:_color forKey:@"DotColor"];
     [aCoder encodeFloat:_size forKey:@"DotSize"];
 }
+#pragma mark - NSCopying
+- (id)copyWithZone:(NSZone *)zone {
+    Dot *dot = [super copyWithZone:zone];
+    dot.color = _color;
+    dot.size = _size;
+    return dot;
+}
 @end

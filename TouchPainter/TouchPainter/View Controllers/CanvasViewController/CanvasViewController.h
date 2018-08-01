@@ -9,14 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "Scribble.h"
 #import "CanvasView.h"
+#import "CommandBarButton.h"
 @interface CanvasViewController : UIViewController
 {
     @private
     CGPoint _startPoint;
-    UIColor *_strokeColor;
-    CGFloat _strokeSize;
 }
 @property(nonatomic, strong) CanvasView *canvasView;
 @property(nonatomic, strong) Scribble *scribble;
+@property(nonatomic, strong) UIColor *strokeColor;
+@property(nonatomic , assign)CGFloat strokeSize;
 - (IBAction)onBarButtonHit:(UIBarButtonItem *)sender;
+- (IBAction)onCustomBarButtonHit:(CommandBarButton*)sender;
 @end

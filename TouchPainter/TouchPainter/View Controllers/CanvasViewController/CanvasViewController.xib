@@ -24,9 +24,19 @@
                     <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <items>
-                        <barButtonItem systemItem="trash" id="zlQ-gw-k1m"/>
+                        <barButtonItem systemItem="trash" id="zlQ-gw-k1m" customClass="CommandBarButton">
+                            <connections>
+                                <action selector="onCustomBarButtonHit:" destination="-2" id="cR2-Xj-TLV"/>
+                                <outlet property="cmd" destination="lDI-Iy-dUr" id="wRa-e3-Aiz"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="MBv-ed-mh7"/>
-                        <barButtonItem title="save" image="save" id="1I0-mR-hbV"/>
+                        <barButtonItem title="save" image="save" id="1I0-mR-hbV" customClass="CommandBarButton">
+                            <connections>
+                                <action selector="onCustomBarButtonHit:" destination="-1" id="7tJ-um-rVq"/>
+                                <outlet property="cmd" destination="Jg3-jP-BuR" id="4oh-og-EEz"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="qdy-Hb-bxS"/>
                         <barButtonItem tag="2" title="open" image="open" id="M5L-9j-B7q">
                             <connections>
@@ -56,8 +66,11 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="169" y="19"/>
         </view>
         <customObject id="bUC-Uf-wfb" customClass="CoordinatingController"/>
+        <customObject id="lDI-Iy-dUr" customClass="DeleteScribbleCommand"/>
+        <customObject id="Jg3-jP-BuR" customClass="SaveScribbleCommand"/>
     </objects>
     <resources>
         <image name="open" width="24" height="24"/>

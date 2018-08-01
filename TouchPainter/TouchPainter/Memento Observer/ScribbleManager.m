@@ -32,6 +32,7 @@
 }
 - (NSUInteger)numberOfScribbles {
     NSString *dataPath = [self filePath:@"Data"];
+    NSLog(@"%@",dataPath);
     NSArray *array = [[NSFileManager defaultManager] subpathsAtPath:dataPath];
     return array.count;
 }
@@ -44,6 +45,10 @@
 - (NSString *)filePath:(NSString*)directoryName {
     NSString *documentPath = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
     documentPath = [documentPath stringByAppendingPathComponent:directoryName];
+    BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:documentPath];
+    if (!exists) {
+        [[NSFileManager defaultManager] createDirectoryAtPath:documentPath withIntermediateDirectories:YES attributes:nil error:nil];
+    }
     return documentPath;
 }
 @end

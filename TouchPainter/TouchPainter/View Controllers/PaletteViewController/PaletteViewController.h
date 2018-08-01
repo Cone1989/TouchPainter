@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CommandSlider.h"
+#import "SetStrokeColorCommand.h"
+#import "SetStrokeSizeCommand.h"
 @interface PaletteViewController : UIViewController
-
+<SetStrokeColorCommandDataSource,
+SetStrokeColorCommandDelegate,
+SetStrokeSizeCommandDataSource>
+- (IBAction)commandSliderValueChanged:(CommandSlider*)sender;
 @end
